@@ -1,0 +1,52 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta charset="ISO-8859-1">  
+<title>Insert title here</title> 
+<link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+<body>
+<div class="main">
+<div class="reg">
+
+<h1>Add New Employee</h1>
+<form action="SaveServlet" method="post" id="in">
+
+<label>NAME :</label>
+<br>
+<input type="text" name="name" id="na1" placeholder="Enter your name"><br> <br>
+
+<label>PASSWORD :</label>
+<br>
+<input type="password" name="password" id="na2" placeholder="Enter your Password"><br> <br> 
+
+
+<label>EMAIL :</label>
+<br>
+<input type="email" name="email" id="na3" placeholder="Enter your Email"> <br> <br>
+
+
+
+<label>COUNTRY :</label>&nbsp; &nbsp;
+<select name="country" style="width:150px" id="sec">  
+    <option>India</option>  
+    <option>USA</option>  
+    <option>UK</option>  
+    <option>Other</option>  
+    </select> <br> <br>
+
+<button type="submit"value="Save Employee" id="sub" >SUBMIT</button>
+
+
+<button type="reset" id="res">RESET</button>
+
+<a href="ViewServlet"><button type="button" id="btnl">VIEW EMPLOYEE TABLE  </button></a>
+
+</form>
+</div>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+*{
+margin: 0px;
+padding: 0px;
+}
+h1{
+    padding-top: 20px;
+    margin: -13px 79px 0px 50px;
+}
+
+body{
+background-image: linear-gradient(to right,red,orange,yellow, rgb(70, 217, 54),rgb(62, 190, 152),green);
+
+}
+
+div.main{
+width: 400px;
+margin: 80px auto 0px auto;
+}
+h2{
+text-align: center;
+padding: 20px;
+}
+div.reg{
+background-color:rgba(0,0,0,0.26);
+width: 100%;
+font-size: 16px;
+border-radius: 10px;
+border-color: red;
+box-shadow: 2px 2px 15px  grey;
+}
+
+form#in{
+margin: 20px;
+}
+label{
+font-size: 18px;
+
+}
+input#na1,#na2,#na3,#na4{
+width: 316px;
+padding: 7px;
+border-radius: 3px;
+
+}
+button#sub{
+width: 150px;
+padding: 5px;
+border: 1px solid white;
+border-radius: 6px;
+color:black;
+background-image: linear-gradient(green,rgb(106, 255, 0),green);
+margin-bottom: 30px;
+text-align: center;
+}
+button#sub:hover{
+    border: 3px solid rgb(107, 107, 107);
+    background-image: linear-gradient(rgb(106, 255, 0),green,rgb(106, 255, 0));
+}
+
+button#res{
+width: 150px;
+padding: 5px;
+border: 1px solid white;
+border-radius: 6px;
+color: black;
+margin-left:30px;
+background-image:linear-gradient(blue,aqua,blue);
+margin-bottom: 30px;
+text-align: center;
+}
+
+button#res:hover{
+    border: 3px solid rgb(107, 107, 107);
+    background-image:linear-gradient(aqua,blue,aqua);
+}
+
+
+#btnl{
+    width: 334px;
+    padding: 5px; 
+    border: 2px solid rgb(255, 255, 255);   
+    border-radius: 15px ;
+    color: black;
+    margin-top: 10px;
+    background-image:linear-gradient(red,yellow,red);
+    margin-bottom: 41px;
+    text-align: center;
+}
+#btnl:hover{
+    border: 3px solid rgb(113, 113, 113);  
+    background-image:linear-gradient(yellow,red,yellow);
+}
+
+#sec{
+    height: 26px;
+
+    border-radius: 10px;
+    text-align: center;
+    border-top: 2px solid rgb(60, 60, 60);
+    border-left: 2px solid rgb(60, 60, 60);
+}
